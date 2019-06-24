@@ -1,0 +1,39 @@
+<html>
+
+<body>
+	<h1>Salut</h1>
+	<button onClick="charge()">Charger</button>
+	<div id="resultat"></div>
+
+</body>
+
+<script>
+
+
+
+
+
+	function charge(){
+		var xhttp= new XMLHttpRequest();
+		xhttp.onreadystatechange= donneeChargee;
+		xhttp.open("GET", "./hello.html", true);
+		xhttp.send();
+	
+	};
+		
+	
+	
+	function donneeChargee(data) {
+	
+		if (data.target.readyState== 4 && data.target.status== 200) 
+		{
+			document.getElementById("resultat").innerHTML += data.target.response;
+		}
+	}
+	
+	
+	
+	
+</script>
+
+</html>

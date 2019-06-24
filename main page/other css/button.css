@@ -1,0 +1,14 @@
+.containerr .btn{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #fff;
+  border-color: #fff;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: medium;
+}

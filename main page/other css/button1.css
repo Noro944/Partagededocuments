@@ -1,0 +1,14 @@
+.container .btnn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #d92e19;
+  border-color: #d92e19;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: medium;
+}
